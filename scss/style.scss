@@ -1,0 +1,33 @@
+@import "constants";
+@import "mixins";
+
+body{
+  background: $white;
+}
+
+header{
+    background: $navy_blue;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid;
+
+    img{
+      margin-left: 5%;
+    }
+
+    span{
+      color: $white;
+      font-size: 42px;
+      font-weight: 700;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+a{
+  text-decoration: none;
+}

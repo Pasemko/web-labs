@@ -1,0 +1,30 @@
+body {
+  background: #eeeeee;
+}
+
+header {
+  background: #222831;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid;
+}
+
+header img {
+  margin-left: 5%;
+}
+
+header span {
+  color: #eeeeee;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
